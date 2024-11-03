@@ -1,0 +1,21 @@
+[
+      
+     
+      {
+            "id":1,
+            "category":"mobile"
+      },
+      {
+            "id":2,
+            "category":"laptop"
+      },
+      {
+            "id":3,
+            "category":"earbuds"
+      },
+      {
+            "id":4,
+            "category":"Smart Watches"
+      }
+
+]

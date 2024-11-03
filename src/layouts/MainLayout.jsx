@@ -7,9 +7,10 @@ const MainLayout = () => {
             <div>
                   {/* Navbar */}
                   <Navbar/>
-                  <div className="min-h-[calc(100vh-357px)] py-12">{/* Dynamic Section */}
+                  <div className="min-h-[calc(100vh-257px)]">
                         <Outlet/>
                   </div>
+                 
                   {/* Footer */}
                   <Footer/>
             </div>

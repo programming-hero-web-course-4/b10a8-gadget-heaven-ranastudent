@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      banner: '#9538E2',
+      white:'#FFFFFF',
+
+    },
+    backgroundImage: {
+      bannerImg:"url('./dist/banner.jpg')"
+    },
+
   },
   plugins: [
     require('daisyui'),

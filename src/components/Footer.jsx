@@ -2,12 +2,12 @@
 
 const Footer = () => {
       return (
-<footer className="footer footer-center bg-base-300 text-base-content p-10">
+<footer className="footer footer-center bg-white text-base-content p-10">
             <div className="w-2/3 mx-auto items-center">
                   <h2 className="text-2xl text-center font-bold">Gadget Heaven</h2>
                   <p className="text-center">Leading the way in cutting-edge technology and innovation.</p>
             </div>
-            <div className="w-10/12 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-between">
+            <div className="lg:w-10/12 sm:w-2/3 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-between">
                   <div>
                         <h1 className="text-xl font-bold">Services</h1>
                         <ul>
