@@ -1,0 +1,113 @@
+[
+      {
+        "product_id": 1,
+        "product_title": "iPhone 13",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/3408-34138.jpg",
+        "category": "mobile",
+        "price": 799,
+        "description": "The latest iPhone with A15 Bionic chip.",
+        "Specification": ["128GB storage", "5G support", "Dual-camera system"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 2,
+        "product_title": "Samsung Galaxy S21",
+        "product_image": "https://www.mobiledokan.co/wp-content/uploads/2020/09/Samsung-Galaxy-S21-Plus-5G-Phantom-Violet-500x500.jpg",
+        "category": "mobile",
+        "price": 699,
+        "description": "High-end Android phone with Exynos 2100.",
+        "Specification": ["128GB storage", "5G support", "Triple-camera system"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 3,
+        "product_title": "Google Pixel 6",
+        "product_image": "https://kryinternational.com/wp-content/uploads/2024/02/Google-Pixel-6-Price-in-bangladesh.jpg",
+        "category": "mobile",
+        "price": 599,
+        "description": "Google's flagship phone with Tensor chip.",
+        "Specification": ["128GB storage", "5G support", "Dual-camera system"],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 4,
+        "product_title": "OnePlus 9",
+        "product_image": "https://www.mobiledokan.co/wp-content/uploads/2020/10/OnePlus-9-Winter-Mist.jpg",
+        "category": "mobile",
+        "price": 729,
+        "description": "Flagship killer with Snapdragon 888.",
+        "Specification": ["128GB storage", "5G support", "Triple-camera system"],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 5,
+        "product_title": "Xiaomi Mi 11",
+        "product_image": "https://www.mobilebazar.org/wp-content/uploads/2024/09/Xiaomi-Mi-11-Black-500x500-1-500x500.jpg",
+        "category": "mobile",
+        "price": 749,
+        "description": "High-performance phone with Snapdragon 888.",
+        "Specification": ["128GB storage", "5G support", "Triple-camera system"],
+        "availability": true,
+        "rating": 4.4
+      },
+      {
+        "product_id": 6,
+        "product_title": "Sony Xperia 1 III",
+        "product_image": "https://mobilebazar.com.bd/assets/img/Sony-Xperia-1-II-Balck.jpg",
+        "category": "mobile",
+        "price": 999,
+        "description": "Premium phone with 4K display.",
+        "Specification": ["256GB storage", "5G support", "Triple-camera system"],
+        "availability": true,
+        "rating": 4.3
+      },
+      {
+        "product_id": 7,
+        "product_title": "MacBook Pro 14",
+        "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/3710-49683.jpg",
+        "category": "laptop",
+        "price": 1999,
+        "description": "Apple's latest MacBook Pro with M1 Pro chip.",
+        "Specification": ["14-inch display", "16GB RAM", "512GB SSD"],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": 8,
+        "product_title": "Dell XPS 13",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Dell-XPS-13-Plus-BD-Price-1.jpg",
+        "category": "laptop",
+        "price": 1299,
+        "description": "Ultra-thin laptop with Intel i7 processor.",
+        "Specification": ["13.4-inch display", "16GB RAM", "512GB SSD"],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 9,
+        "product_title": "Apple AirPods Pro",
+        "product_image": "https://www.tct.com.bd/wp-content/uploads/2022/04/MWP22_720x.jpg",
+        "category": "earbuds",
+        "price": 249,
+        "description": "Noise-cancelling wireless earbuds from Apple.",
+        "Specification": ["Active Noise Cancellation", "Wireless Charging Case", "Transparency mode"],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 10,
+        "product_title": "Samsung Galaxy Buds Pro",
+        "product_image": "https://ronstech.com.bd/wp-content/uploads/2021/10/galaxy-buds-pro-1-500x500-1.jpg",
+        "category": "earbuds",
+        "price": 199,
+        "description": "High-quality wireless earbuds from Samsung.",
+        "Specification": ["Active Noise Cancellation", "Wireless Charging Case", "IPX7 water resistance"],
+        "availability": true,
+        "rating": 4.6
+      }
+    ]
+    
