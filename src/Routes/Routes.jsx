@@ -5,6 +5,7 @@ import Home from '../Pages/Home'
 import Statistics from '../Pages/Statistics'
 import Dashboard from '../Pages/Dashboard'
 import GadgetCard from '../components/GadgetCard'
+import ProductDetails from '../Pages/ProductDetails'
 const routes = createBrowserRouter([
       {
         path: '/',
@@ -16,10 +17,20 @@ const routes = createBrowserRouter([
                   loader: ()=>fetch('../categories.json'),
                   children: [
                         {
+                              path:'/',
+                              element:<GadgetCard/>,
+                              loader: ()=>fetch('../gadget.json'),
+                        },
+                        {
                               path:'/cards/:category',
                               element:<GadgetCard/>,
                               loader: ()=>fetch('../gadget.json'),
                         },
+                        // {
+                        //       path:'/cards/Smart%20Watches',
+                        //       element:<NotFoundProducts/>,
+                              
+                        // },
                   ],
             },
             {
@@ -28,7 +39,11 @@ const routes = createBrowserRouter([
             },
             {
                   path: '/dashboard',
-                  element: <Dashboard/>
+                  element: <Dashboard/>,
+            },
+            { path: '/card/:product_id', 
+            element: <ProductDetails />, 
+            loader: () => fetch('../gadget.json').then(res => res.json()), 
             },
         ]
       },

@@ -1,4 +1,4 @@
-
+     
 
 const Heading = ({title, subtitle, btn}) => {
       return (
@@ -7,7 +7,8 @@ const Heading = ({title, subtitle, btn}) => {
                   <h1 className=" text-white  text-center text-2xl font-bold">{title}</h1>
                   <p className=" text-white text-center text-xl font-thin">{subtitle}</p>
                   <div className=" py-10 z-0">
-                  <button className="btn btn-active btn-secondary text-banner bg-white rounded-md text-center" >{btn}</button>
+                  {/* <button className="btn btn-active btn-secondary text-banner bg-white rounded-md text-center" >{btn}</button> */}
+                  {btn && <button className="btn btn-active btn-secondary text-banner bg-white rounded-md text-center" >{btn}</button>}
                   </div>
                   </div>
             </div>

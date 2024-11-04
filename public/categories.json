@@ -3,18 +3,22 @@
      
       {
             "id":1,
-            "category":"mobile"
+            "category":"All Products"
       },
       {
             "id":2,
-            "category":"laptop"
+            "category":"mobile"
       },
       {
             "id":3,
-            "category":"earbuds"
+            "category":"laptop"
       },
       {
             "id":4,
+            "category":"earbuds"
+      },
+      {
+            "id":5,
             "category":"Smart Watches"
       }
 
