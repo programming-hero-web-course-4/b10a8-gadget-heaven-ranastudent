@@ -6,6 +6,7 @@ import { addToStoreCartList, addToStoreWishList, updateCartCount } from "../Util
 import { useContext, useState } from "react";
 import CartWishlistContext from "../Utils/CartWishlistContext";
 import { CountContext } from "../App";
+import { Helmet } from "react-helmet-async";
 
 
 const ProductDetails = () => {
@@ -33,6 +34,11 @@ const ProductDetails = () => {
       return (
 
             <div>
+                  <Helmet>
+                        <title>
+                              Product Details
+                        </title>
+                  </Helmet>
                   <div className=" w-full z-0 relative">
                         <Heading title={'Product Details'} subtitle={'Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!'}></Heading>;
                   </div>

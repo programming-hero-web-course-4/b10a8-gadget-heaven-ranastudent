@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Outlet, NavLink } from "react-router-dom";
 
 
@@ -5,6 +6,11 @@ import { Outlet, NavLink } from "react-router-dom";
 const Dashboard = () => {
       return (
             <div>
+                  <Helmet>
+                        <title>
+                              Dashboard
+                        </title>
+                  </Helmet>
                   <div className="relative text-center  items-center w-11/12 mx-auto bg-banner z-0 space-y-2 h-auto ">
                         <div className="bg-banner pb-52 w-11/12 mx-auto items-center text-center z-0">
                               <h1 className=" text-white  text-center text-2xl font-bold">Dashboard</h1>

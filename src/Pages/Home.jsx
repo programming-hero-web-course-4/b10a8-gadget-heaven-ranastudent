@@ -2,12 +2,18 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner";
 import Heading from "../components/Heading";
 import Categories from "../components/Categories";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const categories = useLoaderData();
   // console.log(categories);
   return (
     <div>
+      <Helmet>
+        <title>
+          Home
+        </title>
+      </Helmet>
       {/* heading */}
       <Heading 
         title={'Upgrade Your Tech Accessorize with Gadget Heaven Accessories'}
