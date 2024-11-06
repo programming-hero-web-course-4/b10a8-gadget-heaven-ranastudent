@@ -2,19 +2,30 @@ import { useLoaderData, useParams } from "react-router-dom";
 import Heading from "../components/Heading";
 import { TiShoppingCart } from "react-icons/ti";
 import { IoHeartSharp } from "react-icons/io5";
-import { addToStoreCartList, addToStoreWishList } from "../Utils";
+import { addToStoreCartList, addToStoreWishList, updateCartCount } from "../Utils";
+import { useContext, useState } from "react";
+import CartWishlistContext from "../Utils/CartWishlistContext";
+import { CountContext } from "../App";
+
 
 const ProductDetails = () => {
       const { product_id } = useParams();
       const data = useLoaderData();
       const product = data.find(item => item.product_id === parseInt(product_id));
-     
-      console.log(product)
+      // const { setCartCount, setWishlistCount } = useContext(CartWishlistContext)
+      // console.log(product)
+      const [count, setCount] = useState(0)
+      // const [cart, setCart] = useContext(CountContext)
       const handleCartList = (id)=>{
             addToStoreCartList(id)
+            updateCartCount();
+            // setCartCount(prevCount => prevCount + 1);
+            // setCart(cart + 1)
       }
       const handleWishList = (id)=>{
             addToStoreWishList(id)
+            // setWishlistCount(prevCount => prevCount + 1);
+            // setCart(cart + 1)
       }
       return (
 

@@ -8,6 +8,7 @@ export default {
     colors: {
       banner: '#9538E2',
       white:'#FFFFFF',
+      red : '#FF0000',
 
     },
     backgroundImage: {

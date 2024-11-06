@@ -45,5 +45,13 @@ const addToStoreWishList = (id)=>{
             toast.success('add wish list')
       }
 }
+const cartCount = localStorage.getItem('cartCount') ? parseInt(localStorage.getItem('cartCount')) : 0;
+localStorage.setItem('cartCount', cartCount);
+const updateCartCount = () => {
+      let cartCount = localStorage.getItem('cartCount') ? parseInt(localStorage.getItem('cartCount')) : 0;
+      cartCount += 1;
+      localStorage.setItem('cartCount', cartCount);
+  };
+  
 
-export {addToStoreCartList, addToStoreWishList, getStoreCartList, getStoreWishList }
+export {addToStoreCartList, addToStoreWishList, getStoreCartList, getStoreWishList,  updateCartCount}
