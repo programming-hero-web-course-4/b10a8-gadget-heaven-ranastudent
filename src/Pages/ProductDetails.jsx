@@ -15,6 +15,8 @@ const ProductDetails = () => {
       // const { setCartCount, setWishlistCount } = useContext(CartWishlistContext)
       // console.log(product)
       const [count, setCount] = useState(0)
+      const [isWishListDisabled, setIsWishListDisabled] = useState(false);
+
       // const [cart, setCart] = useContext(CountContext)
       const handleCartList = (id)=>{
             addToStoreCartList(id)
@@ -24,6 +26,7 @@ const ProductDetails = () => {
       }
       const handleWishList = (id)=>{
             addToStoreWishList(id)
+            setIsWishListDisabled(true)
             // setWishlistCount(prevCount => prevCount + 1);
             // setCart(cart + 1)
       }
@@ -56,7 +59,7 @@ const ProductDetails = () => {
                               </div>
                               <div>
                                     <button onClick={()=>handleCartList(product.product_id)} className="btn btn-ghost bg-banner text-white" >Add To Card <TiShoppingCart /></button>
-                                    <button onClick={()=>handleWishList(product.product_id)} className="btn btn-sm rounded-full bg-white"><IoHeartSharp /></button>
+                                    <button onClick={()=>handleWishList(product.product_id)} className="btn btn-sm rounded-full bg-white" disabled={isWishListDisabled} ><IoHeartSharp /></button>
                               </div>
                         </div>
 
